@@ -2,16 +2,16 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Templates Patterns Collection 1.2.10\n"
+"Project-Id-Version: Templates Patterns Collection 1.2.11\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templates-patterns-collection\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-07-18T11:48:39+00:00\n"
+"POT-Creation-Date: 2024-09-25T13:04:03+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.10.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: templates-patterns-collection\n"
 
 #. Plugin Name of the plugin
@@ -147,13 +147,13 @@ msgid "Loading"
 msgstr ""
 
 #: includes/Admin.php:1227
-#: assets/src/Components/ImportModal.js:738
+#: assets/src/Components/ImportModal.js:826
 #: assets/src/Components/Migration.js:198
 msgid "View Website"
 msgstr ""
 
 #: includes/Admin.php:1228
-#: assets/src/Components/ImportModal.js:742
+#: assets/src/Components/ImportModal.js:827
 msgid "Add your own content"
 msgstr ""
 
@@ -170,7 +170,7 @@ msgid "Advanced Options"
 msgstr ""
 
 #: includes/Admin.php:1232
-#: assets/src/Components/ImportModal.js:362
+#: assets/src/Components/ImportModal.js:412
 msgid "Plugins"
 msgstr ""
 
@@ -190,25 +190,25 @@ msgid "Search"
 msgstr ""
 
 #: includes/Admin.php:1236
-#: assets/src/Components/ImportModal.js:206
+#: assets/src/Components/ImportModal.js:210
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:57
 msgid "Content"
 msgstr ""
 
 #: includes/Admin.php:1237
-#: assets/src/Components/ImportModal.js:214
+#: assets/src/Components/ImportModal.js:218
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:65
 msgid "Customizer"
 msgstr ""
 
 #: includes/Admin.php:1238
-#: assets/src/Components/ImportModal.js:218
+#: assets/src/Components/ImportModal.js:222
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:69
 msgid "Widgets"
 msgstr ""
 
 #: includes/Admin.php:1239
-#: assets/src/Components/ImportModal.js:208
+#: assets/src/Components/ImportModal.js:212
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:59
 msgid "We recommend you backup your website content before attempting a full site import."
 msgstr ""
@@ -661,135 +661,149 @@ msgstr ""
 msgid "Sync"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:100
-#: assets/src/Components/ImportModal.js:141
+#: assets/src/Components/ImportModal.js:104
+#: assets/src/Components/ImportModal.js:145
 #: onboarding/src/Components/Steps/CustomizeSite.js:44
 #: onboarding/src/Components/Steps/CustomizeSite.js:86
 msgid "Something went wrong while loading the site data. Please refresh the page and try again."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:163
+#: assets/src/Components/ImportModal.js:167
 msgid "Import the entire site including customizer options, pages, content and plugins."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:177
+#: assets/src/Components/ImportModal.js:181
 msgid "Neve"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:178
+#: assets/src/Components/ImportModal.js:182
 msgid "In order to import the starter site, Neve theme has to be installed and activated."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:189
+#: assets/src/Components/ImportModal.js:193
 msgid "Install required theme"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:220
+#: assets/src/Components/ImportModal.js:224
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:71
 msgid "Widgets will be moved to the Inactive Widgets sidebar and can be retrieved from there."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:226
+#: assets/src/Components/ImportModal.js:230
 msgid "Enable performance features for my site"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:269
-#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:122
+#: assets/src/Components/ImportModal.js:268
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:117
+msgid "AI Chatbot"
+msgstr ""
+
+#. translators: %s is Hyve plugin name.
+#: assets/src/Components/ImportModal.js:273
+msgid "Hyve is an AI-powered chatbot that transforms your WordPress content into engaging conversations. %sHyve%s"
+msgstr ""
+
+#: assets/src/Components/ImportModal.js:311
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:161
 msgid "Cleanup previous import"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:273
-#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:126
+#: assets/src/Components/ImportModal.js:315
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:165
 msgid "This will remove any plugins, images, customizer options, widgets posts and pages added by the previous demo import"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:291
+#: assets/src/Components/ImportModal.js:333
 msgid "Import settings"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:405
+#: assets/src/Components/ImportModal.js:454
 msgid "Additional plugins are required for this Starter Site in order to work properly. "
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:446
+#: assets/src/Components/ImportModal.js:499
 #: assets/src/Components/InstallModal.js:52
 #: onboarding/src/Components/Steps/Import.js:91
 msgid "Could not install theme."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:467
+#: assets/src/Components/ImportModal.js:520
 #: assets/src/Components/InstallModal.js:67
 #: onboarding/src/Components/Steps/Import.js:112
 msgid "Could not activate theme."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:650
-#: onboarding/src/Components/Steps/Import.js:261
+#: assets/src/Components/ImportModal.js:731
+#: onboarding/src/Components/Steps/Import.js:289
 msgid "Something went wrong while cleaning the previous import."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:654
+#: assets/src/Components/ImportModal.js:735
 #: assets/src/Components/Migration.js:47
-#: onboarding/src/Components/Steps/Import.js:265
+#: onboarding/src/Components/Steps/Import.js:293
 msgid "Something went wrong while installing the necessary plugins."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:658
+#: assets/src/Components/ImportModal.js:739
 #: assets/src/Components/Migration.js:63
-#: onboarding/src/Components/Steps/Import.js:269
+#: onboarding/src/Components/Steps/Import.js:297
 msgid "Something went wrong while importing the website content."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:662
-#: onboarding/src/Components/Steps/Import.js:273
+#: assets/src/Components/ImportModal.js:743
+#: onboarding/src/Components/Steps/Import.js:301
 msgid "Something went wrong while updating the customizer settings."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:666
-#: onboarding/src/Components/Steps/Import.js:277
+#: assets/src/Components/ImportModal.js:747
+#: onboarding/src/Components/Steps/Import.js:305
 msgid "Something went wrong while importing the widgets."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:670
-#: onboarding/src/Components/Steps/Import.js:281
+#: assets/src/Components/ImportModal.js:751
+#: onboarding/src/Components/Steps/Import.js:309
 msgid "Something went wrong while installing the performance addon."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:729
+#: assets/src/Components/ImportModal.js:755
+msgid "Something went wrong while installing the Hyve Lite plugin."
+msgstr ""
+
+#: assets/src/Components/ImportModal.js:817
 msgid "View Website & Subscribe"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:733
+#: assets/src/Components/ImportModal.js:821
 msgid "Skip and add your own content"
 msgstr ""
 
 #. translators: name of starter site
-#: assets/src/Components/ImportModal.js:804
+#: assets/src/Components/ImportModal.js:894
 msgid "Import %s as a complete site"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:811
+#: assets/src/Components/ImportModal.js:902
 msgid "Content was successfully imported"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:835
+#: assets/src/Components/ImportModal.js:926
 msgid "Learn more about this starter site"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:879
+#: assets/src/Components/ImportModal.js:974
 msgid "Stay up-to-date on news, tips and product updates"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:882
+#: assets/src/Components/ImportModal.js:981
 #: onboarding/src/Components/ImportForm.js:132
 msgid "Enter your email"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:906
+#: assets/src/Components/ImportModal.js:1012
 msgid "I want to import just the templates"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:924
+#: assets/src/Components/ImportModal.js:1030
 msgid "Import entire site"
 msgstr ""
 
@@ -850,6 +864,10 @@ msgstr ""
 #: assets/src/Components/ImportStepper.js:48
 #: onboarding/src/Components/ImportProgress.js:21
 msgid "Installing Performance Features"
+msgstr ""
+
+#: assets/src/Components/ImportStepper.js:56
+msgid "Installing Hyve Lite Plugin"
 msgstr ""
 
 #. translators: %s: Error message.
@@ -1141,7 +1159,13 @@ msgstr ""
 msgid "Optimize and speed up your site with our trusted addon, <a><span>%s</span><icon/></a>. It’s free."
 msgstr ""
 
-#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:166
+#. translators: %1$s is the opening tag for the link.
+#. translators: %2$s is the closing tag for the link.
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:121
+msgid "Hyve is an AI-powered chatbot that transforms your WordPress content into engaging conversations. %1$sHyve%2$s"
+msgstr ""
+
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:205
 msgid "Advanced Settings"
 msgstr ""
 
@@ -1237,6 +1261,10 @@ msgstr ""
 msgid "Skip and view site"
 msgstr ""
 
+#: onboarding/src/Components/ImportProgress.js:25
+msgid "Installing Chatbot"
+msgstr ""
+
 #: onboarding/src/Components/Sites.js:97
 msgid "You can try a different search or use another category."
 msgstr ""
@@ -1313,19 +1341,23 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:317
+#: onboarding/src/Components/Steps/Import.js:313
+msgid "Something went wrong while installing the Hyve Lite theme."
+msgstr ""
+
+#: onboarding/src/Components/Steps/Import.js:349
 msgid "We are importing your new site…"
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:323
+#: onboarding/src/Components/Steps/Import.js:355
 msgid "Sit tight as we import a website based on your preferences."
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:345
+#: onboarding/src/Components/Steps/Import.js:377
 msgid "Import complete."
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:350
+#: onboarding/src/Components/Steps/Import.js:382
 msgid "Enjoy your site!"
 msgstr ""
 
