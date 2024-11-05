@@ -1,3 +1,28 @@
+##### [Version 3.3.35](https://github.com/Codeinwp/themeisle-sdk/compare/v3.3.34...v3.3.35) (2024-10-29)
+
+ignore dev files
+
+##### [Version 3.3.34](https://github.com/Codeinwp/themeisle-sdk/compare/v3.3.33...v3.3.34) (2024-10-25)
+
+- Add initial promo delay to 6 hours
+- Add 21 days delay between two promos
+
+##### [Version 3.3.33](https://github.com/Codeinwp/themeisle-sdk/compare/v3.3.32...v3.3.33) (2024-10-24)
+
+- chore: disable otter promos by default
+- feat: add lang code for Formbricks survey
+
+##### [Version 3.3.32](https://github.com/Codeinwp/themeisle-sdk/compare/v3.3.31...v3.3.32) (2024-10-16)
+
+- Fix translations bugs and adapt mechanism to work on themes
+- Adds product review links in About page
+- Fix About page layout on Safari browser
+
+##### [Version 3.3.31](https://github.com/Codeinwp/themeisle-sdk/compare/v3.3.30...v3.3.31) (2024-10-14)
+
+- Update minimum PHP version required for Hyve promo
+- add E2E test support with wp-scripts and Playwright
+
 ##### [Version 3.3.30](https://github.com/Codeinwp/themeisle-sdk/compare/v3.3.29...v3.3.30) (2024-09-10)
 
 - Remove margin auto from ThemeIsle Woo tab

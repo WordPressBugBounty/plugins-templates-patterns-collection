@@ -129,7 +129,6 @@ class Promotions extends Abstract_Module {
 
 		$this->debug          = apply_filters( 'themeisle_sdk_promo_debug', $this->debug );
 		$promotions_to_load   = apply_filters( $product->get_key() . '_load_promotions', array() );
-		$promotions_to_load[] = 'otter';
 		$promotions_to_load[] = 'optimole';
 		$promotions_to_load[] = 'rop';
 		$promotions_to_load[] = 'woo_plugins';
@@ -167,7 +166,7 @@ class Promotions extends Abstract_Module {
 
 		$last_dismiss_time = $this->get_last_dismiss_time();
 
-		if ( ! $this->debug && is_int( $last_dismiss_time ) && ( time() - $last_dismiss_time ) < WEEK_IN_SECONDS ) {
+		if ( ! $this->debug && is_int( $last_dismiss_time ) && ( time() - $last_dismiss_time ) < ( 3 * WEEK_IN_SECONDS ) ) {
 			return;
 		}
 
@@ -376,6 +375,7 @@ class Promotions extends Abstract_Module {
 		$has_neve_from_promo       = get_option( $this->option_neve, false );
 		$has_enough_attachments    = $this->has_min_media_attachments();
 		$has_enough_old_posts      = $this->has_old_posts();
+		$is_min_php_8_1            = version_compare( PHP_VERSION, '8.1', '>=' );
 
 		$all = [
 			'optimole'        => [
@@ -460,7 +460,7 @@ class Promotions extends Abstract_Module {
 			],
 			'hyve'            => [
 				'hyve-plugins-install' => [
-					'env'    => ! $has_hyve && ! $had_hyve_from_promo && $has_hyve_conditions,
+					'env'    => $is_min_php_8_1 && ! $has_hyve && ! $had_hyve_from_promo && $has_hyve_conditions,
 					'screen' => 'plugin-install',
 				],
 			],
@@ -539,7 +539,7 @@ class Promotions extends Abstract_Module {
 		
 		$product_install_time = (int) $this->product->get_install_time();
 		$is_older             = time() > ( $product_install_time + ( 3 * DAY_IN_SECONDS ) );
-		$is_newer             = time() < ( $product_install_time + ( 5 * MINUTE_IN_SECONDS ) );
+		$is_newer             = time() < ( $product_install_time + ( 6 * HOUR_IN_SECONDS ) );
 
 		foreach ( $this->promotions as $slug => $promos ) {
 			foreach ( $promos as $key => $data ) {
@@ -548,9 +548,9 @@ class Promotions extends Abstract_Module {
 
 				if (
 					! $this->debug && 
-					( 
+					(
 						( $data['delayed'] === true && ! $is_older ) || // Skip promotions that are delayed for 3 days.
-						$is_newer // Skip promotions for the first 5 minutes after install.
+						$is_newer // Skip promotions for the first 6 hours after install.
 					)
 				) {
 					unset( $this->promotions[ $slug ][ $key ] );

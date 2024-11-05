@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Templates Patterns Collection 1.2.11\n"
+"Project-Id-Version: Templates Patterns Collection 1.2.12\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templates-patterns-collection\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-09-25T13:04:03+00:00\n"
+"POT-Creation-Date: 2024-11-05T14:40:47+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: templates-patterns-collection\n"
@@ -40,6 +40,11 @@ msgstr ""
 #: includes/TI_Beaver.php:37
 #: assets/src/Components/Header.js:125
 #: editor/src/components/tpc-templates-button.js:18
+#: editor/src/index.js:17
+#: editor/src/plugins/extension.js:403
+#: editor/src/plugins/extension.js:408
+#: editor/src/plugins/site-editor-extension.js:325
+#: editor/src/plugins/site-editor-extension.js:330
 msgid "Templates Cloud"
 msgstr ""
 
@@ -52,19 +57,21 @@ msgstr ""
 
 #: includes/Admin.php:479
 #: includes/Admin.php:480
-#: includes/Elementor.php:89
+#: includes/Elementor.php:93
 #: includes/TI_Beaver.php:402
 #: assets/src/Components/Header.js:26
 #: assets/src/Components/Header.js:131
+#: editor/src/components/header.js:17
 msgid "Page Templates"
 msgstr ""
 
 #: includes/Admin.php:488
 #: includes/Admin.php:489
-#: includes/Elementor.php:90
+#: includes/Elementor.php:94
 #: includes/TI_Beaver.php:403
 #: assets/src/Components/Header.js:30
 #: assets/src/Components/Header.js:134
+#: editor/src/components/header.js:22
 msgid "My Library"
 msgstr ""
 
@@ -115,15 +122,28 @@ msgid "Hi! We've noticed you were using a child theme of Zelle before. To make y
 msgstr ""
 
 #: includes/Admin.php:1221
-#: includes/TI_Beaver.php:413
+#: includes/TI_Beaver.php:417
+#: assets/src/Components/CloudLibrary/ListItem.js:137
+#: assets/src/Components/CloudLibrary/ListItem.js:336
+#: assets/src/Components/CloudLibrary/PreviewFrame.js:17
 #: assets/src/Components/StarterSiteCard.js:61
+#: editor/src/components/list-item.js:115
+#: editor/src/components/list-item.js:375
 msgid "Preview"
 msgstr ""
 
 #: includes/Admin.php:1222
-#: includes/TI_Beaver.php:414
+#: includes/TI_Beaver.php:418
+#: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:412
+#: assets/src/Components/CloudLibrary/ListItem.js:147
+#: assets/src/Components/CloudLibrary/ListItem.js:346
 #: assets/src/Components/PreviewFrame.js:95
 #: assets/src/Components/StarterSiteCard.js:69
+#: beaver/src/components/preview.js:40
+#: editor/src/components/import-modal.js:247
+#: editor/src/components/list-item.js:123
+#: editor/src/components/list-item.js:384
+#: editor/src/components/preview.js:82
 msgid "Import"
 msgstr ""
 
@@ -132,11 +152,13 @@ msgid "Get the PRO version!"
 msgstr ""
 
 #: includes/Admin.php:1224
+#: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:410
+#: editor/src/components/import-modal.js:243
 msgid "Importing"
 msgstr ""
 
 #: includes/Admin.php:1225
-#: includes/Elementor.php:100
+#: includes/Elementor.php:104
 #: includes/TI_Beaver.php:392
 #: assets/src/Components/Migration.js:165
 msgid "Cancel"
@@ -147,13 +169,13 @@ msgid "Loading"
 msgstr ""
 
 #: includes/Admin.php:1227
-#: assets/src/Components/ImportModal.js:826
+#: assets/src/Components/ImportModal.js:822
 #: assets/src/Components/Migration.js:198
 msgid "View Website"
 msgstr ""
 
 #: includes/Admin.php:1228
-#: assets/src/Components/ImportModal.js:827
+#: assets/src/Components/ImportModal.js:823
 msgid "Add your own content"
 msgstr ""
 
@@ -170,7 +192,8 @@ msgid "Advanced Options"
 msgstr ""
 
 #: includes/Admin.php:1232
-#: assets/src/Components/ImportModal.js:412
+#: assets/src/Components/ImportModal.js:408
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:261
 msgid "Plugins"
 msgstr ""
 
@@ -184,8 +207,11 @@ msgid "Keep current layout"
 msgstr ""
 
 #: includes/Admin.php:1235
-#: includes/Elementor.php:115
-#: includes/TI_Beaver.php:426
+#: includes/Elementor.php:119
+#: includes/TI_Beaver.php:430
+#: assets/src/Components/CloudLibrary/Filters.js:167
+#: assets/src/Components/CloudLibrary/Filters.js:190
+#: editor/src/components/filters.js:108
 msgid "Search"
 msgstr ""
 
@@ -292,78 +318,86 @@ msgstr ""
 msgid "No logs found"
 msgstr ""
 
-#. translators: %s: Templates Cloud
-#: includes/Elementor.php:66
-#: includes/Elementor.php:96
-#: includes/TI_Beaver.php:407
+#. translators: %s: templates location.
+#: includes/Elementor.php:68
+#: includes/Elementor.php:100
+#: includes/TI_Beaver.php:409
 msgid "Save to %s"
 msgstr ""
 
-#: includes/Elementor.php:67
+#: includes/Elementor.php:71
 #: includes/TI_Beaver.php:387
 msgid "Save Templates"
 msgstr ""
 
-#: includes/Elementor.php:68
+#: includes/Elementor.php:72
 #: includes/TI_Beaver.php:388
-#: editor/src/plugins/site-editor-extension.js:414
+#: assets/src/Components/CloudLibrary/ListItem.js:245
+#: editor/src/components/list-item.js:252
+#: editor/src/plugins/extension.js:522
+#: editor/src/plugins/site-editor-extension.js:412
 msgid "Template Name"
 msgstr ""
 
-#: includes/Elementor.php:69
-#: includes/Elementor.php:130
+#: includes/Elementor.php:73
+#: includes/Elementor.php:134
 #: includes/TI_Beaver.php:389
-#: includes/TI_Beaver.php:483
-#: editor/src/plugins/extension.js:112
+#: includes/TI_Beaver.php:491
+#: beaver/src/components/preview.js:23
+#: editor/src/plugins/extension.js:111
 msgid "Template"
 msgstr ""
 
-#: includes/Elementor.php:70
-#: includes/Elementor.php:119
+#: includes/Elementor.php:74
+#: includes/Elementor.php:123
 #: includes/TI_Beaver.php:390
-#: includes/TI_Beaver.php:431
-#: editor/src/plugins/site-editor-extension.js:428
+#: includes/TI_Beaver.php:435
+#: editor/src/plugins/extension.js:536
+#: editor/src/plugins/site-editor-extension.js:426
 msgid "Save"
 msgstr ""
 
-#: includes/Elementor.php:71
+#: includes/Elementor.php:75
 #: includes/TI_Beaver.php:391
-#: editor/src/plugins/site-editor-extension.js:363
+#: editor/src/plugins/extension.js:433
+#: editor/src/plugins/site-editor-extension.js:361
 msgid "Automatically sync to the cloud"
 msgstr ""
 
-#: includes/Elementor.php:72
+#: includes/Elementor.php:76
 msgid "Template Saved."
 msgstr ""
 
-#: includes/Elementor.php:73
+#: includes/Elementor.php:77
 #: editor/src/components/publish-button.js:63
 msgid "Template Published."
 msgstr ""
 
-#: includes/Elementor.php:74
+#: includes/Elementor.php:78
 #: editor/src/components/publish-button.js:53
 msgid "Template Unpublished."
 msgstr ""
 
 #. translators: %s: Templates Cloud
-#: includes/Elementor.php:79
+#: includes/Elementor.php:83
 msgid "Import from %s"
 msgstr ""
 
 #. translators: %s: Templates Cloud
-#: includes/Elementor.php:85
+#: includes/Elementor.php:89
 msgid "Add Template from %s:"
 msgstr ""
 
-#: includes/Elementor.php:93
+#: includes/Elementor.php:97
 #: includes/TI_Beaver.php:406
 msgid "Sync Library"
 msgstr ""
 
-#: includes/Elementor.php:99
-#: includes/TI_Beaver.php:409
+#: includes/Elementor.php:103
+#: includes/TI_Beaver.php:413
 #: assets/src/Components/CloudLibrary/DemoSiteTemplatesImport.js:191
+#: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:286
+#: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:320
 #: assets/src/Components/InstallModal.js:163
 #: assets/src/Components/Migration.js:161
 #: assets/src/Components/OnboardingContent.js:153
@@ -371,89 +405,114 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: includes/Elementor.php:101
-#: includes/TI_Beaver.php:410
+#: includes/Elementor.php:105
+#: includes/TI_Beaver.php:414
 #: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:272
+#: assets/src/Components/CloudLibrary/ListItem.js:155
+#: assets/src/Components/CloudLibrary/ListItem.js:268
+#: assets/src/Components/CloudLibrary/ListItem.js:272
+#: assets/src/Components/CloudLibrary/ListItem.js:277
+#: assets/src/Components/CloudLibrary/ListItem.js:299
+#: editor/src/components/list-item.js:130
+#: editor/src/components/list-item.js:278
+#: editor/src/components/list-item.js:285
+#: editor/src/components/list-item.js:299
+#: editor/src/components/list-item.js:326
 msgid "Edit"
 msgstr ""
 
-#: includes/Elementor.php:102
+#: includes/Elementor.php:106
 msgid "Duplicate"
 msgstr ""
 
-#: includes/Elementor.php:103
-#: includes/TI_Beaver.php:411
+#: includes/Elementor.php:107
+#: includes/TI_Beaver.php:415
+#: assets/src/Components/CloudLibrary/ListItem.js:190
+#: assets/src/Components/CloudLibrary/ListItem.js:314
+#: assets/src/Components/CloudLibrary/ListItem.js:324
+#: editor/src/components/list-item.js:212
+#: editor/src/components/list-item.js:344
+#: editor/src/components/list-item.js:360
 msgid "Delete"
 msgstr ""
 
-#: includes/Elementor.php:104
+#: includes/Elementor.php:108
 msgid "Insert"
 msgstr ""
 
-#: includes/Elementor.php:105
+#: includes/Elementor.php:109
 msgid "Back to Library"
-msgstr ""
-
-#: includes/Elementor.php:108
-#: includes/TI_Beaver.php:417
-msgid "Sort by"
-msgstr ""
-
-#: includes/Elementor.php:110
-#: includes/TI_Beaver.php:419
-msgid "Name"
-msgstr ""
-
-#: includes/Elementor.php:111
-#: includes/TI_Beaver.php:420
-msgid "Date"
 msgstr ""
 
 #: includes/Elementor.php:112
 #: includes/TI_Beaver.php:421
-msgid "Last Modified"
+#: assets/src/Components/CloudLibrary/Filters.js:120
+msgid "Sort by"
 msgstr ""
 
-#: includes/Elementor.php:113
-#: includes/TI_Beaver.php:422
-msgid "Actions"
+#: includes/Elementor.php:114
+#: includes/TI_Beaver.php:423
+#: assets/src/Components/CloudLibrary/Filters.js:11
+#: editor/src/components/filters.js:10
+msgid "Name"
+msgstr ""
+
+#: includes/Elementor.php:115
+#: includes/TI_Beaver.php:424
+#: assets/src/Components/CloudLibrary/Filters.js:10
+#: editor/src/components/filters.js:9
+msgid "Date"
 msgstr ""
 
 #: includes/Elementor.php:116
-#: includes/TI_Beaver.php:427
+#: includes/TI_Beaver.php:425
+#: assets/src/Components/CloudLibrary/Filters.js:12
+#: editor/src/components/filters.js:11
+msgid "Last Modified"
+msgstr ""
+
+#: includes/Elementor.php:117
+#: includes/TI_Beaver.php:426
+msgid "Actions"
+msgstr ""
+
+#: includes/Elementor.php:120
+#: includes/TI_Beaver.php:431
 msgid "Search Templates"
 msgstr ""
 
 #. translators: %s: Templates Cloud
-#: includes/Elementor.php:122
-#: includes/TI_Beaver.php:432
+#: includes/Elementor.php:126
+#: includes/TI_Beaver.php:438
 msgid "Save your page to %s"
 msgstr ""
 
-#: includes/Elementor.php:125
+#: includes/Elementor.php:129
 msgid "Enter Template Name"
 msgstr ""
 
-#: includes/Elementor.php:126
-#: includes/TI_Beaver.php:433
+#: includes/Elementor.php:130
+#: includes/TI_Beaver.php:441
 #: editor/src/components/template-predefine.js:92
+#: editor/src/plugins/extension.js:451
 msgid "Screenshot URL"
 msgstr ""
 
-#: includes/Elementor.php:127
-#: includes/TI_Beaver.php:434
+#: includes/Elementor.php:131
+#: includes/TI_Beaver.php:442
 #: editor/src/components/template-predefine.js:105
+#: editor/src/plugins/extension.js:464
 msgid "Site Slug"
 msgstr ""
 
-#: includes/Elementor.php:128
-#: includes/TI_Beaver.php:435
+#: includes/Elementor.php:132
+#: includes/TI_Beaver.php:443
 #: editor/src/components/publish-button.js:104
 msgid "Publish"
 msgstr ""
 
-#: includes/Elementor.php:129
-#: includes/TI_Beaver.php:436
+#: includes/Elementor.php:133
+#: includes/TI_Beaver.php:444
 #: editor/src/components/publish-button.js:100
 msgid "Unpublish"
 msgstr ""
@@ -481,39 +540,57 @@ msgid "Export Failed"
 msgstr ""
 
 #: includes/TI_Beaver.php:398
+#: editor/src/components/templates-content.js:215
 msgid "No templates available. Add a new one?"
 msgstr ""
 
 #: includes/TI_Beaver.php:399
+#: assets/src/Components/CloudLibrary/ListItem.js:89
+#: editor/src/components/list-item.js:76
 msgid "Are you sure you want to delete this template?"
 msgstr ""
 
 #: includes/TI_Beaver.php:400
+#: assets/src/Components/CloudLibrary/ListItem.js:265
 msgid "This template is synced to a page."
 msgstr ""
 
-#: includes/TI_Beaver.php:408
+#: includes/TI_Beaver.php:412
+#: assets/src/Components/CloudLibrary/ListItem.js:216
+#: assets/src/Components/CloudLibrary/ListItem.js:277
+#: assets/src/Components/CloudLibrary/ListItem.js:299
+#: editor/src/components/list-item.js:168
+#: editor/src/components/list-item.js:295
+#: editor/src/components/list-item.js:322
 msgid "Update"
 msgstr ""
 
-#: includes/TI_Beaver.php:412
+#: includes/TI_Beaver.php:416
+#: assets/src/Components/CloudLibrary/ListItem.js:323
+#: editor/src/components/list-item.js:356
 msgid "Deleting"
 msgstr ""
 
-#: includes/TI_Beaver.php:423
+#: includes/TI_Beaver.php:427
+#: assets/src/Components/CloudLibrary/Filters.js:198
+#: editor/src/components/filters.js:119
 msgid "List View"
 msgstr ""
 
-#: includes/TI_Beaver.php:424
+#: includes/TI_Beaver.php:428
+#: assets/src/Components/CloudLibrary/Filters.js:205
+#: editor/src/components/filters.js:126
 msgid "Grid View"
 msgstr ""
 
-#: includes/TI_Beaver.php:428
+#: includes/TI_Beaver.php:432
+#: assets/src/Components/CloudLibrary/Filters.js:181
+#: editor/src/components/filters.js:96
 msgid "Clear search query"
 msgstr ""
 
-#: includes/TI_Beaver.php:454
-#: editor/src/plugins/extension.js:393
+#: includes/TI_Beaver.php:462
+#: editor/src/plugins/extension.js:391
 msgid "Save to Templates Cloud"
 msgstr ""
 
@@ -540,6 +617,7 @@ msgid "Import Starter Site"
 msgstr ""
 
 #: assets/src/Components/CloudLibrary/DemoSiteTemplatesImport.js:166
+#: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:413
 msgid "Import All Pages"
 msgstr ""
 
@@ -550,6 +628,92 @@ msgstr ""
 
 #: assets/src/Components/CloudLibrary/DemoSiteTemplatesImport.js:233
 msgid "Import Page"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:11
+#: assets/src/Components/Settings/Settings.js:18
+msgid "Plugin version"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:15
+msgid "Feedback Response"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:16
+msgid "Checked option from feedback"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:19
+#: assets/src/Components/Settings/Settings.js:22
+msgid "Feedback Details"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:20
+#: assets/src/Components/Settings/Settings.js:23
+msgid "Text from the above text area"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:25
+#: assets/src/Components/Settings/Settings.js:9
+msgid "There was a problem submitting your feedback."
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:26
+#: assets/src/Components/Settings/Settings.js:10
+msgid "Please provide a feedback before submitting the form."
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:27
+#: assets/src/Components/Settings/Settings.js:11
+msgid "Thank you for helping us improve Templates Cloud!"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:138
+msgid "Help us improve and let us know how are you using Templates Cloud."
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:147
+msgid "Try again"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:155
+msgid "Share feedback"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:178
+msgid "How are you using Templates Cloud?"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:185
+msgid "To store my templates in the cloud"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:186
+msgid "To share templates with the clients"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:187
+#: assets/src/utils/common.js:43
+msgid "Other"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:197
+msgid "Tell us more …"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:212
+#: assets/src/Components/Settings/Settings.js:103
+msgid "We value privacy, that's why no domain name, email address or IP addresses are collected after you submit the survey. Below is a detailed view of all data that Themeisle will receive if you fill in this survey."
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:235
+#: assets/src/Components/Settings/Settings.js:126
+msgid "Submit feedback"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/FeedbackNotice.js:246
+#: assets/src/Components/Settings/Settings.js:137
+msgid "What info do we collect?"
 msgstr ""
 
 #: assets/src/Components/CloudLibrary/Filters.js:21
@@ -578,6 +742,11 @@ msgstr ""
 msgid "Builder Logo"
 msgstr ""
 
+#: assets/src/Components/CloudLibrary/Filters.js:156
+#: editor/src/components/filters.js:66
+msgid "Show FSE Templates"
+msgstr ""
+
 #: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:229
 msgid "Import done!"
 msgstr ""
@@ -596,6 +765,10 @@ msgstr ""
 
 #: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:299
 msgid "An error occurred!"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:306
+msgid "Please refresh the page and try again."
 msgstr ""
 
 #: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:334
@@ -629,8 +802,16 @@ msgstr ""
 msgid "Upgrade to PRO"
 msgstr ""
 
+#: assets/src/Components/CloudLibrary/Library.js:392
+msgid "I already have a key"
+msgstr ""
+
 #: assets/src/Components/CloudLibrary/Library.js:409
 msgid "Templates Cloud is a PRO Feature"
+msgstr ""
+
+#: assets/src/Components/CloudLibrary/Library.js:413
+msgid "Unlock the Templates Cloud features and save your pages or posts in the cloud."
 msgstr ""
 
 #: assets/src/Components/CloudLibrary/Library.js:497
@@ -654,6 +835,7 @@ msgid "Import Template"
 msgstr ""
 
 #: assets/src/Components/Header.js:100
+#: editor/src/components/header.js:84
 msgid "Re-sync Library"
 msgstr ""
 
@@ -693,117 +875,127 @@ msgstr ""
 msgid "Enable performance features for my site"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:268
+#. translators: %s is Optimole plugin name.
+#: assets/src/Components/ImportModal.js:238
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:85
+msgid "Optimize and speed up your site with our trusted addon, <a><span>%s</span><icon/></a>. It’s free."
+msgstr ""
+
+#: assets/src/Components/ImportModal.js:239
+msgid "Optimole"
+msgstr ""
+
+#: assets/src/Components/ImportModal.js:265
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:117
 msgid "AI Chatbot"
 msgstr ""
 
 #. translators: %s is Hyve plugin name.
-#: assets/src/Components/ImportModal.js:273
+#: assets/src/Components/ImportModal.js:270
 msgid "Hyve is an AI-powered chatbot that transforms your WordPress content into engaging conversations. %sHyve%s"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:311
-#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:161
+#: assets/src/Components/ImportModal.js:308
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:160
 msgid "Cleanup previous import"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:315
-#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:165
+#: assets/src/Components/ImportModal.js:312
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:164
 msgid "This will remove any plugins, images, customizer options, widgets posts and pages added by the previous demo import"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:333
+#: assets/src/Components/ImportModal.js:330
 msgid "Import settings"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:454
-msgid "Additional plugins are required for this Starter Site in order to work properly. "
+#: assets/src/Components/ImportModal.js:450
+msgid "Additional plugins are required for this Starter Site in order to work properly."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:499
+#: assets/src/Components/ImportModal.js:495
 #: assets/src/Components/InstallModal.js:52
 #: onboarding/src/Components/Steps/Import.js:91
 msgid "Could not install theme."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:520
+#: assets/src/Components/ImportModal.js:516
 #: assets/src/Components/InstallModal.js:67
 #: onboarding/src/Components/Steps/Import.js:112
 msgid "Could not activate theme."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:731
+#: assets/src/Components/ImportModal.js:727
 #: onboarding/src/Components/Steps/Import.js:289
 msgid "Something went wrong while cleaning the previous import."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:735
+#: assets/src/Components/ImportModal.js:731
 #: assets/src/Components/Migration.js:47
 #: onboarding/src/Components/Steps/Import.js:293
 msgid "Something went wrong while installing the necessary plugins."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:739
+#: assets/src/Components/ImportModal.js:735
 #: assets/src/Components/Migration.js:63
 #: onboarding/src/Components/Steps/Import.js:297
 msgid "Something went wrong while importing the website content."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:743
+#: assets/src/Components/ImportModal.js:739
 #: onboarding/src/Components/Steps/Import.js:301
 msgid "Something went wrong while updating the customizer settings."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:747
+#: assets/src/Components/ImportModal.js:743
 #: onboarding/src/Components/Steps/Import.js:305
 msgid "Something went wrong while importing the widgets."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:751
+#: assets/src/Components/ImportModal.js:747
 #: onboarding/src/Components/Steps/Import.js:309
 msgid "Something went wrong while installing the performance addon."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:755
+#: assets/src/Components/ImportModal.js:751
 msgid "Something went wrong while installing the Hyve Lite plugin."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:817
+#: assets/src/Components/ImportModal.js:813
 msgid "View Website & Subscribe"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:821
+#: assets/src/Components/ImportModal.js:817
 msgid "Skip and add your own content"
 msgstr ""
 
 #. translators: name of starter site
-#: assets/src/Components/ImportModal.js:894
+#: assets/src/Components/ImportModal.js:890
 msgid "Import %s as a complete site"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:902
+#: assets/src/Components/ImportModal.js:898
 msgid "Content was successfully imported"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:926
+#: assets/src/Components/ImportModal.js:922
 msgid "Learn more about this starter site"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:974
+#: assets/src/Components/ImportModal.js:970
 msgid "Stay up-to-date on news, tips and product updates"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:981
+#: assets/src/Components/ImportModal.js:977
 #: onboarding/src/Components/ImportForm.js:132
 msgid "Enter your email"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:1012
+#: assets/src/Components/ImportModal.js:1008
 msgid "I want to import just the templates"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:1030
+#: assets/src/Components/ImportModal.js:1026
 msgid "Import entire site"
 msgstr ""
 
@@ -885,6 +1077,14 @@ msgstr ""
 
 #: assets/src/Components/InstallModal.js:116
 msgid "In order to import the starter site, Neve theme has to be installed and activated. Click the button below to install and activate Neve"
+msgstr ""
+
+#: assets/src/Components/InstallModal.js:142
+msgid "Installing"
+msgstr ""
+
+#: assets/src/Components/InstallModal.js:143
+msgid "Activating"
 msgstr ""
 
 #: assets/src/Components/InstallModal.js:147
@@ -970,6 +1170,14 @@ msgstr ""
 msgid "Search for a starter site"
 msgstr ""
 
+#: assets/src/Components/Settings/Settings.js:83
+msgid "What's one thing you need in Templates Cloud?"
+msgstr ""
+
+#: assets/src/Components/Settings/Settings.js:89
+msgid "Tell us how can we help you better with Templates Cloud"
+msgstr ""
+
 #: assets/src/Components/Settings/Settings.js:149
 msgid "Feedback"
 msgstr ""
@@ -992,7 +1200,7 @@ msgstr ""
 
 #: assets/src/utils/common.js:29
 #: assets/src/utils/common.js:38
-#: onboarding/src/utils/common.js:8
+#: onboarding/src/utils/common.js:7
 msgid "Business"
 msgstr ""
 
@@ -1005,7 +1213,7 @@ msgid "Fashion"
 msgstr ""
 
 #: assets/src/utils/common.js:32
-#: onboarding/src/utils/common.js:10
+#: onboarding/src/utils/common.js:9
 msgid "Blogging"
 msgstr ""
 
@@ -1022,7 +1230,7 @@ msgid "Free"
 msgstr ""
 
 #: assets/src/utils/common.js:39
-#: onboarding/src/utils/common.js:11
+#: onboarding/src/utils/common.js:10
 msgid "Portfolio"
 msgstr ""
 
@@ -1035,12 +1243,8 @@ msgid "Blog"
 msgstr ""
 
 #: assets/src/utils/common.js:42
-#: onboarding/src/utils/common.js:9
+#: onboarding/src/utils/common.js:8
 msgid "Personal"
-msgstr ""
-
-#: assets/src/utils/common.js:43
-msgid "Other"
 msgstr ""
 
 #: assets/src/utils/site-import.js:69
@@ -1049,6 +1253,27 @@ msgstr ""
 
 #: assets/src/utils/site-import.js:99
 msgid "All imports are successful"
+msgstr ""
+
+#: beaver/src/components/preview.js:28
+#: editor/src/components/preview.js:70
+msgid "Close Preview"
+msgstr ""
+
+#: editor/src/components/content.js:39
+msgid "We are still working on this. Please check back later. Thank you!"
+msgstr ""
+
+#: editor/src/components/filters.js:80
+msgid "Search for a template…"
+msgstr ""
+
+#: editor/src/components/header.js:99
+msgid "Close Modal"
+msgstr ""
+
+#: editor/src/components/import-modal.js:178
+msgid "Something went wrong while importing. Please try again."
 msgstr ""
 
 #: editor/src/components/publish-button.js:79
@@ -1064,29 +1289,30 @@ msgid "Publishing"
 msgstr ""
 
 #: editor/src/components/template-predefine.js:64
-#: editor/src/plugins/extension.js:162
+#: editor/src/plugins/extension.js:160
 #: elementor/src/components/export.js:103
 msgid "Template Data Refreshed."
 msgstr ""
 
 #: editor/src/components/template-predefine.js:77
-#: editor/src/plugins/extension.js:174
+#: editor/src/plugins/extension.js:172
 msgid "Something happened when refreshing the template data."
 msgstr ""
 
 #: editor/src/components/template-predefine.js:89
+#: editor/src/plugins/extension.js:444
 msgid "Publish Settings"
 msgstr ""
 
 #: editor/src/components/template-predefine.js:97
-#: editor/src/plugins/extension.js:440
-#: elementor/src/components/export.js:250
+#: editor/src/plugins/extension.js:456
+#: elementor/src/components/export.js:255
 msgid "Use `{generate_ss}` to publish this and have a screenshot automatically generated. Otherwise use the url to point to an image location for the template preview."
 msgstr ""
 
 #: editor/src/components/template-predefine.js:107
-#: editor/src/plugins/extension.js:450
-#: elementor/src/components/export.js:272
+#: editor/src/plugins/extension.js:469
+#: elementor/src/components/export.js:279
 msgid "Use `general` to publish this as a global template. Otherwise use the starter site slug to make it available as a single page for the starter site."
 msgstr ""
 
@@ -1099,74 +1325,87 @@ msgid "Provide a URL to a previewer for this template. This will be used to disp
 msgstr ""
 
 #: editor/src/components/template-predefine.js:163
-#: editor/src/plugins/extension.js:483
-#: elementor/src/components/export.js:311
+#: editor/src/plugins/extension.js:502
+#: elementor/src/components/export.js:325
 msgid "Refresh"
 msgstr ""
 
-#: editor/src/plugins/extension.js:219
-#: editor/src/plugins/extension.js:320
-#: editor/src/plugins/site-editor-extension.js:178
-#: editor/src/plugins/site-editor-extension.js:269
+#: editor/src/index.js:18
+msgid "A cloud based templates library which enables you to create ready-made website in no time."
+msgstr ""
+
+#: editor/src/plugins/extension.js:217
+#: editor/src/plugins/extension.js:318
+#: editor/src/plugins/site-editor-extension.js:175
+#: editor/src/plugins/site-editor-extension.js:266
 msgid "Could not save template, check that the template is not empty."
 msgstr ""
 
-#: editor/src/plugins/extension.js:231
-#: editor/src/plugins/extension.js:332
-#: editor/src/plugins/site-editor-extension.js:220
+#: editor/src/plugins/extension.js:229
+#: editor/src/plugins/extension.js:330
+#: editor/src/plugins/site-editor-extension.js:217
 msgid "Template saved."
 msgstr ""
 
-#: editor/src/plugins/site-editor-extension.js:142
-#: editor/src/plugins/site-editor-extension.js:162
-msgid "FSE Template"
-msgstr ""
-
-#: editor/src/plugins/site-editor-extension.js:189
-msgid "You are not allowed to save templates."
-msgstr ""
-
-#: editor/src/plugins/site-editor-extension.js:200
-msgid "Could not save template, invalid template ID."
-msgstr ""
-
-#: editor/src/plugins/site-editor-extension.js:339
+#: editor/src/plugins/extension.js:415
+#: editor/src/plugins/site-editor-extension.js:337
 msgid "Save this page as a template in your Templates Cloud library."
 msgstr ""
 
-#: editor/src/plugins/site-editor-extension.js:356
+#: editor/src/plugins/extension.js:426
+#: editor/src/plugins/site-editor-extension.js:354
 msgid "Save Page to Templates Cloud"
 msgstr ""
 
-#: editor/src/plugins/site-editor-extension.js:379
+#: editor/src/plugins/extension.js:515
+#: editor/src/plugins/site-editor-extension.js:405
+msgid "Save Template"
+msgstr ""
+
+#: editor/src/plugins/site-editor-extension.js:139
+#: editor/src/plugins/site-editor-extension.js:159
+msgid "FSE Template"
+msgstr ""
+
+#: editor/src/plugins/site-editor-extension.js:186
+msgid "You are not allowed to save templates."
+msgstr ""
+
+#: editor/src/plugins/site-editor-extension.js:197
+msgid "Could not save template, invalid template ID."
+msgstr ""
+
+#: editor/src/plugins/site-editor-extension.js:377
 msgid "Import a template from your Templates Cloud library."
 msgstr ""
 
-#: editor/src/plugins/site-editor-extension.js:384
+#: editor/src/plugins/site-editor-extension.js:382
 msgid "Import from Templates Cloud"
 msgstr ""
 
-#: editor/src/plugins/site-editor-extension.js:407
-msgid "Save Template"
+#: elementor/src/components/templates-content.js:153
+msgid "No templates found. Check again later!"
+msgstr ""
+
+#: elementor/src/components/templates-content.js:160
+msgid "No templates available. Try adding few templates."
 msgstr ""
 
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:77
 msgid "Performance features"
 msgstr ""
 
-#. translators: %s is Optimole plugin name.
-#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:85
-msgid "Optimize and speed up your site with our trusted addon, <a><span>%s</span><icon/></a>. It’s free."
-msgstr ""
-
-#. translators: %1$s is the opening tag for the link.
-#. translators: %2$s is the closing tag for the link.
-#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:121
+#. translators: %1$s is the opening tag for the link  %2$s is the closing tag for the link.
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:122
 msgid "Hyve is an AI-powered chatbot that transforms your WordPress content into engaging conversations. %1$sHyve%2$s"
 msgstr ""
 
-#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:205
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:204
 msgid "Advanced Settings"
+msgstr ""
+
+#: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:267
+msgid "The following plugins are required for this Starter Site in order to work properly:"
 msgstr ""
 
 #: onboarding/src/Components/CustomizeControls/LogoControl.js:26
@@ -1385,6 +1624,6 @@ msgstr ""
 msgid "Or search for a site"
 msgstr ""
 
-#: onboarding/src/utils/common.js:12
+#: onboarding/src/utils/common.js:11
 msgid "E-Shop"
 msgstr ""
