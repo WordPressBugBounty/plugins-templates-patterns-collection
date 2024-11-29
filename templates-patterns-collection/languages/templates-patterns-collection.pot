@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Starter Sites & Templates by Neve 1.2.14\n"
+"Project-Id-Version: Starter Sites & Templates by Neve 1.2.15\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templates-patterns-collection\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-28T15:27:33+00:00\n"
+"POT-Creation-Date: 2024-11-29T10:00:14+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: templates-patterns-collection\n"
@@ -164,13 +164,13 @@ msgid "Loading"
 msgstr ""
 
 #: includes/Admin.php:1345
-#: assets/src/Components/ImportModal.js:822
+#: assets/src/Components/ImportModal.js:823
 #: assets/src/Components/Migration.js:198
 msgid "View Website"
 msgstr ""
 
 #: includes/Admin.php:1346
-#: assets/src/Components/ImportModal.js:823
+#: assets/src/Components/ImportModal.js:824
 msgid "Add your own content"
 msgstr ""
 
@@ -927,77 +927,77 @@ msgstr ""
 msgid "Could not activate theme."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:727
-#: onboarding/src/Components/Steps/Import.js:289
+#: assets/src/Components/ImportModal.js:728
+#: onboarding/src/Components/Steps/Import.js:290
 msgid "Something went wrong while cleaning the previous import."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:731
+#: assets/src/Components/ImportModal.js:732
 #: assets/src/Components/Migration.js:47
-#: onboarding/src/Components/Steps/Import.js:293
+#: onboarding/src/Components/Steps/Import.js:294
 msgid "Something went wrong while installing the necessary plugins."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:735
+#: assets/src/Components/ImportModal.js:736
 #: assets/src/Components/Migration.js:63
-#: onboarding/src/Components/Steps/Import.js:297
+#: onboarding/src/Components/Steps/Import.js:298
 msgid "Something went wrong while importing the website content."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:739
-#: onboarding/src/Components/Steps/Import.js:301
+#: assets/src/Components/ImportModal.js:740
+#: onboarding/src/Components/Steps/Import.js:302
 msgid "Something went wrong while updating the customizer settings."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:743
-#: onboarding/src/Components/Steps/Import.js:305
+#: assets/src/Components/ImportModal.js:744
+#: onboarding/src/Components/Steps/Import.js:306
 msgid "Something went wrong while importing the widgets."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:747
-#: onboarding/src/Components/Steps/Import.js:309
+#: assets/src/Components/ImportModal.js:748
+#: onboarding/src/Components/Steps/Import.js:310
 msgid "Something went wrong while installing the performance addon."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:751
+#: assets/src/Components/ImportModal.js:752
 msgid "Something went wrong while installing the Hyve Lite plugin."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:813
+#: assets/src/Components/ImportModal.js:814
 msgid "View Website & Subscribe"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:817
+#: assets/src/Components/ImportModal.js:818
 msgid "Skip and add your own content"
 msgstr ""
 
 #. translators: name of starter site
-#: assets/src/Components/ImportModal.js:890
+#: assets/src/Components/ImportModal.js:891
 msgid "Import %s as a complete site"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:898
+#: assets/src/Components/ImportModal.js:899
 msgid "Content was successfully imported"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:922
+#: assets/src/Components/ImportModal.js:923
 msgid "Learn more about this starter site"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:970
+#: assets/src/Components/ImportModal.js:971
 msgid "Stay up-to-date on news, tips and product updates"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:977
+#: assets/src/Components/ImportModal.js:978
 #: onboarding/src/Components/ImportForm.js:132
 msgid "Enter your email"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:1008
+#: assets/src/Components/ImportModal.js:1009
 msgid "I want to import just the templates"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:1026
+#: assets/src/Components/ImportModal.js:1027
 msgid "Import entire site"
 msgstr ""
 
@@ -1591,23 +1591,23 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:313
+#: onboarding/src/Components/Steps/Import.js:314
 msgid "Something went wrong while installing the Hyve Lite theme."
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:349
+#: onboarding/src/Components/Steps/Import.js:350
 msgid "We are importing your new site…"
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:355
+#: onboarding/src/Components/Steps/Import.js:356
 msgid "Sit tight as we import a website based on your preferences."
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:377
+#: onboarding/src/Components/Steps/Import.js:378
 msgid "Import complete."
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:382
+#: onboarding/src/Components/Steps/Import.js:383
 msgid "Enjoy your site!"
 msgstr ""
 
