@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Starter Sites & Templates by Neve 1.2.16\n"
+"Project-Id-Version: Starter Sites & Templates by Neve 1.2.17\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templates-patterns-collection\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-04T12:47:21+00:00\n"
+"POT-Creation-Date: 2024-12-16T08:58:47+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: templates-patterns-collection\n"
@@ -83,51 +83,51 @@ msgid "Settings"
 msgstr ""
 
 #. translators: %s - Theme name
-#: includes/Admin.php:823
+#: includes/Admin.php:827
 msgid "Choose from multiple unique demos, specially designed for you, that can be installed with a single click. You just need to choose your favorite, and we will take care of everything else."
 msgstr ""
 
-#: includes/Admin.php:867
+#: includes/Admin.php:871
 msgid "Support"
 msgstr ""
 
-#: includes/Admin.php:872
+#: includes/Admin.php:876
 msgid "Feature request"
 msgstr ""
 
-#: includes/Admin.php:877
+#: includes/Admin.php:881
 msgid "Leave a review"
 msgstr ""
 
-#: includes/Admin.php:882
+#: includes/Admin.php:886
 msgid "Documentation"
 msgstr ""
 
-#: includes/Admin.php:1198
+#: includes/Admin.php:1202
 msgid "Great news!  Now you can export your own custom designs to the cloud and then reuse them on other sites."
 msgstr ""
 
 #. translators: %s: Templates Cloud
-#: includes/Admin.php:1201
+#: includes/Admin.php:1205
 msgid "Open %s"
 msgstr ""
 
-#: includes/Admin.php:1309
+#: includes/Admin.php:1313
 msgid "Hi! We've noticed you were using a child theme of Zelle before. To make your transition easier, we can help you keep the same homepage settings you had before but in original Zelle's style, by converting it into an Elementor template."
 msgstr ""
 
-#: includes/Admin.php:1339
+#: includes/Admin.php:1343
 #: includes/TI_Beaver.php:417
 #: assets/src/Components/CloudLibrary/ListItem.js:137
 #: assets/src/Components/CloudLibrary/ListItem.js:336
 #: assets/src/Components/CloudLibrary/PreviewFrame.js:17
 #: assets/src/Components/StarterSiteCard.js:61
 #: editor/src/components/list-item.js:115
-#: editor/src/components/list-item.js:375
+#: editor/src/components/list-item.js:376
 msgid "Preview"
 msgstr ""
 
-#: includes/Admin.php:1340
+#: includes/Admin.php:1344
 #: includes/TI_Beaver.php:418
 #: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:412
 #: assets/src/Components/CloudLibrary/ListItem.js:147
@@ -137,71 +137,71 @@ msgstr ""
 #: beaver/src/components/preview.js:40
 #: editor/src/components/import-modal.js:247
 #: editor/src/components/list-item.js:123
-#: editor/src/components/list-item.js:384
+#: editor/src/components/list-item.js:385
 #: editor/src/components/preview.js:82
 msgid "Import"
 msgstr ""
 
-#: includes/Admin.php:1341
+#: includes/Admin.php:1345
 msgid "Get the PRO version!"
 msgstr ""
 
-#: includes/Admin.php:1342
+#: includes/Admin.php:1346
 #: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:410
 #: editor/src/components/import-modal.js:243
 msgid "Importing"
 msgstr ""
 
-#: includes/Admin.php:1343
+#: includes/Admin.php:1347
 #: includes/Elementor.php:104
 #: includes/TI_Beaver.php:392
 #: assets/src/Components/Migration.js:165
 msgid "Cancel"
 msgstr ""
 
-#: includes/Admin.php:1344
+#: includes/Admin.php:1348
 msgid "Loading"
 msgstr ""
 
-#: includes/Admin.php:1345
+#: includes/Admin.php:1349
 #: assets/src/Components/ImportModal.js:751
 #: assets/src/Components/Migration.js:198
 msgid "View Website"
 msgstr ""
 
-#: includes/Admin.php:1346
+#: includes/Admin.php:1350
 #: assets/src/Components/ImportModal.js:752
 msgid "Add your own content"
 msgstr ""
 
-#: includes/Admin.php:1347
+#: includes/Admin.php:1351
 msgid "Back to Sites Library"
 msgstr ""
 
-#: includes/Admin.php:1348
+#: includes/Admin.php:1352
 msgid "Note"
 msgstr ""
 
-#: includes/Admin.php:1349
+#: includes/Admin.php:1353
 msgid "Advanced Options"
 msgstr ""
 
-#: includes/Admin.php:1350
+#: includes/Admin.php:1354
 #: assets/src/Components/ImportModal.js:368
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:223
 msgid "Plugins"
 msgstr ""
 
-#: includes/Admin.php:1351
+#: includes/Admin.php:1355
 #: assets/src/Components/Settings/Settings.js:148
 msgid "General"
 msgstr ""
 
-#: includes/Admin.php:1352
+#: includes/Admin.php:1356
 msgid "Keep current layout"
 msgstr ""
 
-#: includes/Admin.php:1353
+#: includes/Admin.php:1357
 #: includes/Elementor.php:119
 #: includes/TI_Beaver.php:430
 #: assets/src/Components/CloudLibrary/Filters.js:167
@@ -210,106 +210,106 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: includes/Admin.php:1354
+#: includes/Admin.php:1358
 #: assets/src/Components/ImportModal.js:208
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:57
 msgid "Content"
 msgstr ""
 
-#: includes/Admin.php:1355
+#: includes/Admin.php:1359
 #: assets/src/Components/ImportModal.js:216
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:65
 msgid "Customizer"
 msgstr ""
 
-#: includes/Admin.php:1356
+#: includes/Admin.php:1360
 #: assets/src/Components/ImportModal.js:220
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:69
 msgid "Widgets"
 msgstr ""
 
-#: includes/Admin.php:1357
+#: includes/Admin.php:1361
 #: assets/src/Components/ImportModal.js:210
 #: onboarding/src/Components/CustomizeControls/ImportOptionsControl.js:59
 msgid "We recommend you backup your website content before attempting a full site import."
 msgstr ""
 
-#: includes/Admin.php:1358
+#: includes/Admin.php:1362
 msgid "Due to copyright issues, some of the demo images will not be imported and will be replaced by placeholder images."
 msgstr ""
 
-#: includes/Admin.php:1359
+#: includes/Admin.php:1363
 msgid "Some of the demo images will not be imported and will be replaced by placeholder images."
 msgstr ""
 
-#: includes/Admin.php:1360
+#: includes/Admin.php:1364
 msgid "Here is our own collection of related images you can use for your site."
 msgstr ""
 
-#: includes/Admin.php:1361
+#: includes/Admin.php:1365
 #: assets/src/Components/Migration.js:131
 msgid "Content was successfully imported. Enjoy your new site!"
 msgstr ""
 
-#: includes/Admin.php:1362
+#: includes/Admin.php:1366
 msgid "Available in the PRO version"
 msgstr ""
 
-#: includes/Admin.php:1363
+#: includes/Admin.php:1367
 msgid "Copy error code"
 msgstr ""
 
-#: includes/Admin.php:1364
+#: includes/Admin.php:1368
 msgid "Download error log"
 msgstr ""
 
-#: includes/Admin.php:1365
+#: includes/Admin.php:1369
 msgid "To import this demo you have to install the following plugins:"
 msgstr ""
 
 #. translators: 1 - 'here'.
-#: includes/Admin.php:1368
+#: includes/Admin.php:1372
 msgid "It seems that Rest API is not working properly on your website. Read about how you can fix it %1$s."
 msgstr ""
 
-#: includes/Admin.php:1369
+#: includes/Admin.php:1373
 msgid "here"
 msgstr ""
 
 #. translators: 1 - 'get in touch'.
-#: includes/Admin.php:1373
+#: includes/Admin.php:1377
 msgid "Hi! It seems there is a configuration issue with your server that's causing the import to fail. Please %1$s with us with the error code below, so we can help you fix this."
 msgstr ""
 
-#: includes/Admin.php:1374
-#: includes/Admin.php:1384
+#: includes/Admin.php:1378
+#: includes/Admin.php:1388
 msgid "get in touch"
 msgstr ""
 
 #. translators: 1 - 'troubleshooting guide'.
-#: includes/Admin.php:1378
+#: includes/Admin.php:1382
 msgid "Hi! It seems there is a configuration issue with your server that's causing the import to fail. Take a look at our %1$s to see if any of the proposed solutions work."
 msgstr ""
 
-#: includes/Admin.php:1379
+#: includes/Admin.php:1383
 msgid "troubleshooting guide"
 msgstr ""
 
 #. translators: 1 - 'get in touch'.
-#: includes/Admin.php:1383
+#: includes/Admin.php:1387
 msgid "If none of the solutions in the guide work, please %1$s with us with the error code below, so we can help you fix this."
 msgstr ""
 
 #. translators: %s - 'WP_Filesystem'.
-#: includes/Admin.php:1388
+#: includes/Admin.php:1392
 msgid "It seems that %s is not available. You can contact your site administrator or hosting provider to help you enable it."
 msgstr ""
 
-#: includes/Admin.php:1431
+#: includes/Admin.php:1435
 msgid "Nonce verification failed"
 msgstr ""
 
-#: includes/Admin.php:1441
+#: includes/Admin.php:1445
 msgid "No logs found"
 msgstr ""
 
@@ -328,7 +328,8 @@ msgstr ""
 #: includes/Elementor.php:72
 #: includes/TI_Beaver.php:388
 #: assets/src/Components/CloudLibrary/ListItem.js:245
-#: editor/src/components/list-item.js:252
+#: editor/src/components/list-item.js:160
+#: editor/src/components/list-item.js:253
 #: editor/src/plugins/extension.js:522
 #: editor/src/plugins/site-editor-extension.js:412
 msgid "Template Name"
@@ -339,6 +340,7 @@ msgstr ""
 #: includes/TI_Beaver.php:389
 #: includes/TI_Beaver.php:491
 #: beaver/src/components/preview.js:23
+#: editor/src/components/preview.js:65
 #: editor/src/plugins/extension.js:111
 msgid "Template"
 msgstr ""
@@ -416,10 +418,10 @@ msgstr ""
 #: assets/src/Components/CloudLibrary/ListItem.js:277
 #: assets/src/Components/CloudLibrary/ListItem.js:299
 #: editor/src/components/list-item.js:130
-#: editor/src/components/list-item.js:278
-#: editor/src/components/list-item.js:285
-#: editor/src/components/list-item.js:299
-#: editor/src/components/list-item.js:326
+#: editor/src/components/list-item.js:279
+#: editor/src/components/list-item.js:286
+#: editor/src/components/list-item.js:300
+#: editor/src/components/list-item.js:327
 msgid "Edit"
 msgstr ""
 
@@ -432,9 +434,9 @@ msgstr ""
 #: assets/src/Components/CloudLibrary/ListItem.js:190
 #: assets/src/Components/CloudLibrary/ListItem.js:314
 #: assets/src/Components/CloudLibrary/ListItem.js:324
-#: editor/src/components/list-item.js:212
-#: editor/src/components/list-item.js:344
-#: editor/src/components/list-item.js:360
+#: editor/src/components/list-item.js:213
+#: editor/src/components/list-item.js:345
+#: editor/src/components/list-item.js:361
 msgid "Delete"
 msgstr ""
 
@@ -449,6 +451,7 @@ msgstr ""
 #: includes/Elementor.php:112
 #: includes/TI_Beaver.php:421
 #: assets/src/Components/CloudLibrary/Filters.js:120
+#: editor/src/components/filters.js:30
 msgid "Sort by"
 msgstr ""
 
@@ -554,6 +557,7 @@ msgstr ""
 
 #: includes/TI_Beaver.php:400
 #: assets/src/Components/CloudLibrary/ListItem.js:265
+#: editor/src/components/list-item.js:276
 msgid "This template is synced to a page."
 msgstr ""
 
@@ -561,15 +565,15 @@ msgstr ""
 #: assets/src/Components/CloudLibrary/ListItem.js:216
 #: assets/src/Components/CloudLibrary/ListItem.js:277
 #: assets/src/Components/CloudLibrary/ListItem.js:299
-#: editor/src/components/list-item.js:168
-#: editor/src/components/list-item.js:295
-#: editor/src/components/list-item.js:322
+#: editor/src/components/list-item.js:169
+#: editor/src/components/list-item.js:296
+#: editor/src/components/list-item.js:323
 msgid "Update"
 msgstr ""
 
 #: includes/TI_Beaver.php:416
 #: assets/src/Components/CloudLibrary/ListItem.js:323
-#: editor/src/components/list-item.js:356
+#: editor/src/components/list-item.js:357
 msgid "Deleting"
 msgstr ""
 
