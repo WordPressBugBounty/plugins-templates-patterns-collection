@@ -2,16 +2,16 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Starter Sites & Templates by Neve 1.2.20\n"
+"Project-Id-Version: Starter Sites & Templates by Neve 1.2.21\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templates-patterns-collection\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-16T12:05:49+00:00\n"
+"POT-Creation-Date: 2025-05-22T11:11:46+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: templates-patterns-collection\n"
 
 #. Plugin Name of the plugin
@@ -259,6 +259,7 @@ msgstr ""
 
 #. translators: 1 - 'here'.
 #: includes/Admin.php:1304
+#, php-format
 msgid "It seems that Rest API is not working properly on your website. Read about how you can fix it %1$s."
 msgstr ""
 
@@ -268,6 +269,7 @@ msgstr ""
 
 #. translators: 1 - 'get in touch'.
 #: includes/Admin.php:1309
+#, php-format
 msgid "Hi! It seems there is a configuration issue with your server that's causing the import to fail. Please %1$s with us with the error code below, so we can help you fix this."
 msgstr ""
 
@@ -278,6 +280,7 @@ msgstr ""
 
 #. translators: 1 - 'troubleshooting guide'.
 #: includes/Admin.php:1314
+#, php-format
 msgid "Hi! It seems there is a configuration issue with your server that's causing the import to fail. Take a look at our %1$s to see if any of the proposed solutions work."
 msgstr ""
 
@@ -287,11 +290,13 @@ msgstr ""
 
 #. translators: 1 - 'get in touch'.
 #: includes/Admin.php:1319
+#, php-format
 msgid "If none of the solutions in the guide work, please %1$s with us with the error code below, so we can help you fix this."
 msgstr ""
 
 #. translators: %s - 'WP_Filesystem'.
 #: includes/Admin.php:1324
+#, php-format
 msgid "It seems that %s is not available. You can contact your site administrator or hosting provider to help you enable it."
 msgstr ""
 
@@ -307,6 +312,7 @@ msgstr ""
 #: includes/Elementor.php:68
 #: includes/Elementor.php:100
 #: includes/TI_Beaver.php:409
+#, php-format
 msgid "Save to %s"
 msgstr ""
 
@@ -367,11 +373,13 @@ msgstr ""
 
 #. translators: %s: Templates Cloud
 #: includes/Elementor.php:83
+#, php-format
 msgid "Import from %s"
 msgstr ""
 
 #. translators: %s: Templates Cloud
 #: includes/Elementor.php:89
+#, php-format
 msgid "Add Template from %s:"
 msgstr ""
 
@@ -479,6 +487,7 @@ msgstr ""
 #. translators: %s: Templates Cloud
 #: includes/Elementor.php:126
 #: includes/TI_Beaver.php:438
+#, php-format
 msgid "Save your page to %s"
 msgstr ""
 
@@ -773,6 +782,7 @@ msgstr ""
 
 #. translators: %s  the name of the template
 #: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:343
+#, js-format
 msgid "The %s template will be imported as a page into your site. This import will install & activate the page builder plugin if not already installed."
 msgstr ""
 
@@ -782,11 +792,13 @@ msgstr ""
 
 #. translators: name of starter site
 #: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:372
+#, js-format
 msgid "Import the %s template"
 msgstr ""
 
 #. translators: name of template
 #: assets/src/Components/CloudLibrary/ImportTemplatesModal.js:377
+#, js-format
 msgid "Import all templates from %s"
 msgstr ""
 
@@ -873,6 +885,7 @@ msgstr ""
 
 #. translators: %s is Optimole plugin name.
 #: assets/src/Components/ImportModal.js:236
+#, js-format
 msgid "Optimize and speed up your site with our trusted addon, <a><span>%s</span><icon/></a>. It’s free."
 msgstr ""
 
@@ -952,6 +965,7 @@ msgstr ""
 
 #. translators: name of starter site
 #: assets/src/Components/ImportModal.js:819
+#, js-format
 msgid "Import %s as a complete site"
 msgstr ""
 
@@ -1041,6 +1055,7 @@ msgstr ""
 
 #. translators: %s: Error message.
 #: assets/src/Components/InstallModal.js:31
+#, js-format
 msgid "An error has ocurred: %s"
 msgstr ""
 
