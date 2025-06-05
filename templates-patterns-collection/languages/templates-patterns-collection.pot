@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Starter Sites & Templates by Neve 1.2.22\n"
+"Project-Id-Version: Starter Sites & Templates by Neve 1.2.23\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templates-patterns-collection\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-30T08:44:26+00:00\n"
+"POT-Creation-Date: 2025-06-05T11:55:12+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: templates-patterns-collection\n"
@@ -154,13 +154,13 @@ msgid "Loading"
 msgstr ""
 
 #: includes/Admin.php:1286
-#: assets/src/Components/ImportModal.js:751
+#: assets/src/Components/ImportModal.js:752
 #: assets/src/Components/Migration.js:198
 msgid "View Website"
 msgstr ""
 
 #: includes/Admin.php:1287
-#: assets/src/Components/ImportModal.js:752
+#: assets/src/Components/ImportModal.js:753
 msgid "Add your own content"
 msgstr ""
 
@@ -929,74 +929,74 @@ msgstr ""
 msgid "Could not activate theme."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:663
-#: onboarding/src/Components/Steps/Import.js:265
+#: assets/src/Components/ImportModal.js:664
+#: onboarding/src/Components/Steps/Import.js:266
 msgid "Something went wrong while cleaning the previous import."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:667
+#: assets/src/Components/ImportModal.js:668
 #: assets/src/Components/Migration.js:47
-#: onboarding/src/Components/Steps/Import.js:269
+#: onboarding/src/Components/Steps/Import.js:270
 msgid "Something went wrong while installing the necessary plugins."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:671
+#: assets/src/Components/ImportModal.js:672
 #: assets/src/Components/Migration.js:63
-#: onboarding/src/Components/Steps/Import.js:273
+#: onboarding/src/Components/Steps/Import.js:274
 msgid "Something went wrong while importing the website content."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:675
-#: onboarding/src/Components/Steps/Import.js:277
+#: assets/src/Components/ImportModal.js:676
+#: onboarding/src/Components/Steps/Import.js:278
 msgid "Something went wrong while updating the customizer settings."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:679
-#: onboarding/src/Components/Steps/Import.js:281
+#: assets/src/Components/ImportModal.js:680
+#: onboarding/src/Components/Steps/Import.js:282
 msgid "Something went wrong while importing the widgets."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:683
-#: onboarding/src/Components/Steps/Import.js:285
+#: assets/src/Components/ImportModal.js:684
+#: onboarding/src/Components/Steps/Import.js:286
 msgid "Something went wrong while installing the performance addon."
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:742
+#: assets/src/Components/ImportModal.js:743
 msgid "View Website & Subscribe"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:746
+#: assets/src/Components/ImportModal.js:747
 msgid "Skip and add your own content"
 msgstr ""
 
 #. translators: name of starter site
-#: assets/src/Components/ImportModal.js:819
+#: assets/src/Components/ImportModal.js:820
 #, js-format
 msgid "Import %s as a complete site"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:827
+#: assets/src/Components/ImportModal.js:828
 msgid "Content was successfully imported"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:851
+#: assets/src/Components/ImportModal.js:852
 msgid "Learn more about this starter site"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:898
+#: assets/src/Components/ImportModal.js:899
 msgid "Stay up-to-date on news, tips and product updates"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:905
+#: assets/src/Components/ImportModal.js:906
 #: onboarding/src/Components/ImportForm.js:132
 msgid "Enter your email"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:936
+#: assets/src/Components/ImportModal.js:937
 msgid "I want to import just the templates"
 msgstr ""
 
-#: assets/src/Components/ImportModal.js:954
+#: assets/src/Components/ImportModal.js:955
 msgid "Import entire site"
 msgstr ""
 
@@ -1566,6 +1566,14 @@ msgstr ""
 msgid "Membership plugin that allows you to monetize content access."
 msgstr ""
 
+#: onboarding/src/Components/FeaturesList.js:121
+msgid "Masteriyo"
+msgstr ""
+
+#: onboarding/src/Components/FeaturesList.js:122
+msgid "Create and sell online courses with ease."
+msgstr ""
+
 #: onboarding/src/Components/Filters.js:8
 msgid "All"
 msgstr ""
@@ -1706,19 +1714,19 @@ msgstr ""
 msgid "PRO"
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:321
+#: onboarding/src/Components/Steps/Import.js:322
 msgid "We are importing your new site…"
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:327
+#: onboarding/src/Components/Steps/Import.js:328
 msgid "Sit tight as we import a website based on your preferences."
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:349
+#: onboarding/src/Components/Steps/Import.js:350
 msgid "Import complete."
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:354
+#: onboarding/src/Components/Steps/Import.js:355
 msgid "Enjoy your site!"
 msgstr ""
 
