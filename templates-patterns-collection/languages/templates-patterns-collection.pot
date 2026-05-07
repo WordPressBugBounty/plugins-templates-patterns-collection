@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Starter Sites & Templates by Neve 1.2.27\n"
+"Project-Id-Version: Starter Sites & Templates by Neve 1.2.28\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templates-patterns-collection\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-04-23T13:15:17+00:00\n"
+"POT-Creation-Date: 2026-05-07T09:24:25+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: templates-patterns-collection\n"
@@ -145,7 +145,7 @@ msgstr ""
 #: includes/Elementor.php:104
 #: includes/TI_Beaver.php:392
 #: assets/src/Components/Migration.js:165
-#: onboarding/src/Components/SiteSettings.js:262
+#: onboarding/src/Components/SiteSettings.js:265
 msgid "Cancel"
 msgstr ""
 
@@ -1433,11 +1433,11 @@ msgstr ""
 msgid "Business Name"
 msgstr ""
 
-#: onboarding/src/Components/CustomizeControls/TypographyControl.js:29
+#: onboarding/src/Components/CustomizeControls/TypographyControl.js:47
 msgid "Typography"
 msgstr ""
 
-#: onboarding/src/Components/CustomizeControls/TypographyControl.js:45
+#: onboarding/src/Components/CustomizeControls/TypographyControl.js:63
 msgid "Default"
 msgstr ""
 
@@ -1678,35 +1678,35 @@ msgstr ""
 msgid "Selected Template"
 msgstr ""
 
-#: onboarding/src/Components/SiteSettings.js:212
+#: onboarding/src/Components/SiteSettings.js:215
 msgid "Unlock Access"
 msgstr ""
 
-#: onboarding/src/Components/SiteSettings.js:229
+#: onboarding/src/Components/SiteSettings.js:232
 msgid "Continue"
 msgstr ""
 
-#: onboarding/src/Components/SiteSettings.js:248
+#: onboarding/src/Components/SiteSettings.js:251
 msgid "Import Website"
 msgstr ""
 
-#: onboarding/src/Components/SiteSettings.js:261
+#: onboarding/src/Components/SiteSettings.js:264
 msgid "Start Import"
 msgstr ""
 
-#: onboarding/src/Components/SiteSettings.js:264
+#: onboarding/src/Components/SiteSettings.js:267
 msgid "Start Import?"
 msgstr ""
 
-#: onboarding/src/Components/SiteSettings.js:265
+#: onboarding/src/Components/SiteSettings.js:268
 msgid "This will override theme settings and add content to your current site."
 msgstr ""
 
-#: onboarding/src/Components/SiteSettings.js:271
+#: onboarding/src/Components/SiteSettings.js:274
 msgid "Already a customer"
 msgstr ""
 
-#: onboarding/src/Components/SiteSettings.js:292
+#: onboarding/src/Components/SiteSettings.js:295
 msgid "Go back"
 msgstr ""
 
