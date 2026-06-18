@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9cffe423315cfdef06c140c07e6b19bf
+class ComposerStaticInit38e7ceb1d2ce66aa860aea884d3fd3ae
 {
     public static $files = array (
         '50f1a0479b2a5847c529d784c54cebe2' => __DIR__ . '/..' . '/codeinwp/themeisle-sdk/load.php',
@@ -54,6 +54,7 @@ class ComposerStaticInit9cffe423315cfdef06c140c07e6b19bf
         'TIOB\\Main' => __DIR__ . '/../..' . '/includes/Main.php',
         'TIOB\\Rest_Server' => __DIR__ . '/../..' . '/includes/Rest_Server.php',
         'TIOB\\Sites_Listing' => __DIR__ . '/../..' . '/includes/Sites_Listing.php',
+        'TIOB\\Starter_Ranking' => __DIR__ . '/../..' . '/includes/Starter_Ranking.php',
         'TIOB\\TI_Beaver' => __DIR__ . '/../..' . '/includes/TI_Beaver.php',
         'TIOB\\WP_Cli' => __DIR__ . '/../..' . '/includes/WP_Cli.php',
         'TIOB\\White_Label_Config' => __DIR__ . '/../..' . '/includes/White_Label_Config.php',
@@ -62,9 +63,9 @@ class ComposerStaticInit9cffe423315cfdef06c140c07e6b19bf
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit9cffe423315cfdef06c140c07e6b19bf::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit9cffe423315cfdef06c140c07e6b19bf::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit9cffe423315cfdef06c140c07e6b19bf::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit38e7ceb1d2ce66aa860aea884d3fd3ae::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit38e7ceb1d2ce66aa860aea884d3fd3ae::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit38e7ceb1d2ce66aa860aea884d3fd3ae::$classMap;
 
         }, null, ClassLoader::class);
     }

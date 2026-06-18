@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Starter Sites & Templates by Neve 1.2.29\n"
+"Project-Id-Version: Starter Sites & Templates by Neve 1.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templates-patterns-collection\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-05-21T09:08:43+00:00\n"
+"POT-Creation-Date: 2026-06-18T18:56:42+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: templates-patterns-collection\n"
@@ -527,13 +527,13 @@ msgstr ""
 msgid "Unpublish"
 msgstr ""
 
-#: includes/Sites_Listing.php:46
-#: includes/Sites_Listing.php:56
+#: includes/Sites_Listing.php:47
+#: includes/Sites_Listing.php:57
 msgid "Want to keep using Zelle's homepage?"
 msgstr ""
 
-#: includes/Sites_Listing.php:47
-#: includes/Sites_Listing.php:57
+#: includes/Sites_Listing.php:48
+#: includes/Sites_Listing.php:58
 msgid "Hi! We've noticed you were using Zelle before. To make your transition easier, we can help you keep the same beautiful homepage you had before, by converting it into an Elementor template. This option will also import your homepage content."
 msgstr ""
 
@@ -930,34 +930,34 @@ msgid "Could not activate theme."
 msgstr ""
 
 #: assets/src/Components/ImportModal.js:664
-#: onboarding/src/Components/Steps/Import.js:269
+#: onboarding/src/Components/Steps/Import.js:279
 msgid "Something went wrong while cleaning the previous import."
 msgstr ""
 
 #: assets/src/Components/ImportModal.js:668
 #: assets/src/Components/Migration.js:47
-#: onboarding/src/Components/Steps/Import.js:273
+#: onboarding/src/Components/Steps/Import.js:283
 msgid "Something went wrong while installing the necessary plugins."
 msgstr ""
 
 #: assets/src/Components/ImportModal.js:672
 #: assets/src/Components/Migration.js:63
-#: onboarding/src/Components/Steps/Import.js:277
+#: onboarding/src/Components/Steps/Import.js:287
 msgid "Something went wrong while importing the website content."
 msgstr ""
 
 #: assets/src/Components/ImportModal.js:676
-#: onboarding/src/Components/Steps/Import.js:281
+#: onboarding/src/Components/Steps/Import.js:291
 msgid "Something went wrong while updating the customizer settings."
 msgstr ""
 
 #: assets/src/Components/ImportModal.js:680
-#: onboarding/src/Components/Steps/Import.js:285
+#: onboarding/src/Components/Steps/Import.js:295
 msgid "Something went wrong while importing the widgets."
 msgstr ""
 
 #: assets/src/Components/ImportModal.js:684
-#: onboarding/src/Components/Steps/Import.js:289
+#: onboarding/src/Components/Steps/Import.js:299
 msgid "Something went wrong while installing the performance addon."
 msgstr ""
 
@@ -1153,7 +1153,7 @@ msgid "Starter sites could not be loaded. Please refresh and try again."
 msgstr ""
 
 #: assets/src/Components/OnboardingContent.js:171
-#: onboarding/src/Components/Sites.js:211
+#: onboarding/src/Components/Sites.js:298
 msgid "No results found."
 msgstr ""
 
@@ -1233,11 +1233,12 @@ msgid "All Categories"
 msgstr ""
 
 #: assets/src/utils/common.js:37
-#: onboarding/src/Components/Filters.js:9
+#: onboarding/src/Components/Filters.js:60
 msgid "Free"
 msgstr ""
 
 #: assets/src/utils/common.js:39
+#: onboarding/src/utils/common.js:9
 msgid "Portfolio"
 msgstr ""
 
@@ -1247,6 +1248,7 @@ msgid "WooCommerce"
 msgstr ""
 
 #: assets/src/utils/common.js:41
+#: onboarding/src/utils/common.js:8
 msgid "Blog"
 msgstr ""
 
@@ -1475,7 +1477,7 @@ msgid "Supercharge your site’s speed with powerful caching."
 msgstr ""
 
 #: onboarding/src/Components/FeaturesList.js:43
-#: onboarding/src/utils/common.js:9
+#: onboarding/src/utils/common.js:11
 msgid "eCommerce"
 msgstr ""
 
@@ -1575,8 +1577,44 @@ msgstr ""
 msgid "Create and sell online courses with ease."
 msgstr ""
 
-#: onboarding/src/Components/Filters.js:8
+#: onboarding/src/Components/Filters.js:59
 msgid "All"
+msgstr ""
+
+#: onboarding/src/Components/Filters.js:92
+msgid "Recommended"
+msgstr ""
+
+#: onboarding/src/Components/Filters.js:96
+msgid "Popular"
+msgstr ""
+
+#: onboarding/src/Components/Filters.js:102
+msgid "New first"
+msgstr ""
+
+#: onboarding/src/Components/Filters.js:133
+msgid "Describe your site — e.g. \"law firm for personal injury cases\""
+msgstr ""
+
+#: onboarding/src/Components/Filters.js:140
+msgid "Add a detail or two for sharper matches — try what you do, who it's for, or where."
+msgstr ""
+
+#: onboarding/src/Components/Filters.js:169
+msgid "selected"
+msgstr ""
+
+#: onboarding/src/Components/Filters.js:173
+msgid "Color"
+msgstr ""
+
+#: onboarding/src/Components/Filters.js:215
+msgid "Clear"
+msgstr ""
+
+#: onboarding/src/Components/Filters.js:223
+msgid "Sort"
 msgstr ""
 
 #: onboarding/src/Components/Header.js:57
@@ -1659,7 +1697,11 @@ msgstr ""
 msgid "Dismiss notice"
 msgstr ""
 
-#: onboarding/src/Components/Sites.js:216
+#: onboarding/src/Components/Sites.js:266
+msgid "Not quite right? Browse more"
+msgstr ""
+
+#: onboarding/src/Components/Sites.js:303
 msgid "You can try a different search or use another category."
 msgstr ""
 
@@ -1739,36 +1781,58 @@ msgstr ""
 msgid "Go back"
 msgstr ""
 
-#: onboarding/src/Components/StarterSiteCard.js:56
+#: onboarding/src/Components/StarterSiteCard.js:68
+msgid "Home"
+msgstr ""
+
+#: onboarding/src/Components/StarterSiteCard.js:79
+msgid "Page"
+msgstr ""
+
+#: onboarding/src/Components/StarterSiteCard.js:163
 msgid "PRO"
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:325
+#. translators: %s is a color label.
+#: onboarding/src/Components/StarterSiteCard.js:252
+#, js-format
+msgid "Preview %s color"
+msgstr ""
+
+#: onboarding/src/Components/Steps/Import.js:335
 msgid "We are importing your new site…"
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:331
+#: onboarding/src/Components/Steps/Import.js:341
 msgid "Sit tight as we import a website based on your preferences."
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:353
+#: onboarding/src/Components/Steps/Import.js:363
 msgid "Import complete."
 msgstr ""
 
-#: onboarding/src/Components/Steps/Import.js:358
+#: onboarding/src/Components/Steps/Import.js:368
 msgid "Enjoy your site!"
 msgstr ""
 
-#: onboarding/src/Components/Steps/SiteList.js:14
+#: onboarding/src/Components/Steps/SiteList.js:38
 msgid "Unlock Access to all premium templates with Neve Business plan. <a></a>."
 msgstr ""
 
-#: onboarding/src/Components/Steps/SiteList.js:25
+#: onboarding/src/Components/Steps/SiteList.js:49
 msgid "Get Started"
 msgstr ""
 
-#: onboarding/src/Components/Steps/SiteList.js:52
+#: onboarding/src/Components/Steps/SiteList.js:199
 msgid "Choose a design"
+msgstr ""
+
+#: onboarding/src/Components/Steps/SiteList.js:218
+msgid "Showing your matches — personalizing the rest in real time…"
+msgstr ""
+
+#: onboarding/src/Components/Steps/SiteList.js:222
+msgid "Personalizing your starter sites…"
 msgstr ""
 
 #: onboarding/src/Components/Steps/Welcome.js:45
@@ -1783,18 +1847,18 @@ msgstr ""
 msgid "Or search for a site"
 msgstr ""
 
-#: onboarding/src/utils/common.js:8
+#: onboarding/src/utils/common.js:10
 msgid "Education"
 msgstr ""
 
-#: onboarding/src/utils/common.js:10
+#: onboarding/src/utils/common.js:12
 msgid "News"
 msgstr ""
 
-#: onboarding/src/utils/common.js:11
+#: onboarding/src/utils/common.js:13
 msgid "Non-Profit"
 msgstr ""
 
-#: onboarding/src/utils/common.js:12
+#: onboarding/src/utils/common.js:14
 msgid "Health"
 msgstr ""

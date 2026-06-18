@@ -35,6 +35,7 @@ return array(
     'TIOB\\Main' => $baseDir . '/includes/Main.php',
     'TIOB\\Rest_Server' => $baseDir . '/includes/Rest_Server.php',
     'TIOB\\Sites_Listing' => $baseDir . '/includes/Sites_Listing.php',
+    'TIOB\\Starter_Ranking' => $baseDir . '/includes/Starter_Ranking.php',
     'TIOB\\TI_Beaver' => $baseDir . '/includes/TI_Beaver.php',
     'TIOB\\WP_Cli' => $baseDir . '/includes/WP_Cli.php',
     'TIOB\\White_Label_Config' => $baseDir . '/includes/White_Label_Config.php',
