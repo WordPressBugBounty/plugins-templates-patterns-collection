@@ -11,11 +11,15 @@ import Toast from '../Toast';
 import Filters from '../Filters';
 import Sites from '../Sites';
 import EditorSelector from '../EditorSelector';
-import OnboardingPromoNotice from '../OnboardingPromoNotice';
 import SVG from '../../utils/svg';
 import { get, track } from '../../utils/rest';
 
 const { onboarding } = tiobDash;
+
+// Debounce the search so it stays off the network while typing: only fire after the
+// field is idle for SEARCH_DEBOUNCE_MS and the query is at least SEARCH_MIN_CHARS.
+const SEARCH_DEBOUNCE_MS = 700;
+const SEARCH_MIN_CHARS = 3;
 
 // Guards tracking-session init against firing twice while the first request is in flight.
 let trackingInitStarted = false;
@@ -36,7 +40,7 @@ const SiteList = ( {
 
 	const toastMessage = createInterpolateElement(
 		__(
-			'Unlock Access to all premium templates with Neve Business plan. <a></a>.',
+			'Included with Neve Business. <a>See plans</a>',
 			'templates-patterns-collection'
 		),
 		{
@@ -44,10 +48,8 @@ const SiteList = ( {
 				<a
 					href={ tiobDash.onboardingUpsell.upgradeToast }
 					target="_blank"
-					rel="external noreferrer noopener"
-				>
-					{ __( 'Get Started', 'templates-patterns-collection' ) }
-				</a>
+					rel="noopener noreferrer"
+				/>
 			),
 		}
 	);
@@ -89,7 +91,6 @@ const SiteList = ( {
 		}
 
 		let active = true;
-		let safety;
 		const reveal = setTimeout( () => {
 			if ( active ) {
 				setPersonalizing( true );
@@ -103,7 +104,7 @@ const SiteList = ( {
 			}
 		};
 
-		safety = setTimeout( done, 9000 );
+		const safety = setTimeout( done, 9000 );
 		get(
 			onboarding.root +
 				'/starter_order?builder=' +
@@ -134,13 +135,15 @@ const SiteList = ( {
 		setSearchFailed( false );
 
 		const q = ( searchQuery || '' ).trim();
-		if ( q.length < 3 ) {
+		if ( q.length < SEARCH_MIN_CHARS ) {
 			setSearching( false );
 			return undefined;
 		}
 
 		let active = true;
 		let safety;
+		// Lets cleanup abort a superseded in-flight request, not just ignore its result.
+		const controller = new AbortController();
 		const done = () => {
 			if ( active ) {
 				clearTimeout( safety );
@@ -166,7 +169,10 @@ const SiteList = ( {
 					'/starter_search?builder=' +
 					encodeURIComponent( editor ) +
 					'&q=' +
-					encodeURIComponent( q )
+					encodeURIComponent( q ),
+				false,
+				true,
+				controller.signal
 			)
 				.then( ( res ) => {
 					if ( ! active ) {
@@ -181,11 +187,18 @@ const SiteList = ( {
 
 					fail();
 				} )
-				.catch( fail );
-		}, 600 );
+				.catch( ( err ) => {
+					// Aborted = superseded, not a real failure → skip the fallback.
+					if ( err && err.name === 'AbortError' ) {
+						return;
+					}
+					fail();
+				} );
+		}, SEARCH_DEBOUNCE_MS );
 
 		return () => {
 			active = false;
+			controller.abort();
 			clearTimeout( timer );
 			clearTimeout( safety );
 		};
@@ -195,13 +208,30 @@ const SiteList = ( {
 		<div className="ob-container">
 			<div className="ob-container-inner">
 				<div className="ob-title-wrap">
-					<h1>
-						{ __( 'Choose a design', 'templates-patterns-collection' ) }
-					</h1>
+					<div className="ob-title-text">
+						<h1>
+							{ __(
+								'Choose a design',
+								'templates-patterns-collection'
+							) }
+						</h1>
+						<p className="ob-subtitle">
+							{ createInterpolateElement(
+								__(
+									'<count>Nearly 200 starter sites</count> across every niche, with dozens added recently.',
+									'templates-patterns-collection'
+								),
+								{
+									count: (
+										<span className="ob-subtitle__count" />
+									),
+								}
+							) }
+						</p>
+					</div>
 					<EditorSelector />
 				</div>
 				<Filters />
-				<OnboardingPromoNotice />
 				{ ( personalizing || searching ) && (
 					<div
 						className="ob-ranking-loader"
@@ -232,6 +262,10 @@ const SiteList = ( {
 						setShowToast={ setShowToast }
 						svgIcon={ SVG.logo }
 						className={ showToast === true ? 'show' : '' }
+						heading={ __(
+							'Unlock every premium template',
+							'templates-patterns-collection'
+						) }
 						message={ toastMessage }
 					/>
 				) }
