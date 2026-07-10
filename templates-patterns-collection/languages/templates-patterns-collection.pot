@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Starter Sites & Templates by Neve 1.4.0\n"
+"Project-Id-Version: Starter Sites & Templates by Neve 1.4.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templates-patterns-collection\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-23T12:04:18+00:00\n"
+"POT-Creation-Date: 2026-07-10T07:58:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: templates-patterns-collection\n"
@@ -527,13 +527,13 @@ msgstr ""
 msgid "Unpublish"
 msgstr ""
 
-#: includes/Sites_Listing.php:47
 #: includes/Sites_Listing.php:57
+#: includes/Sites_Listing.php:67
 msgid "Want to keep using Zelle's homepage?"
 msgstr ""
 
-#: includes/Sites_Listing.php:48
 #: includes/Sites_Listing.php:58
+#: includes/Sites_Listing.php:68
 msgid "Hi! We've noticed you were using Zelle before. To make your transition easier, we can help you keep the same beautiful homepage you had before, by converting it into an Elementor template. This option will also import your homepage content."
 msgstr ""
 
@@ -1243,7 +1243,7 @@ msgid "Portfolio"
 msgstr ""
 
 #: assets/src/utils/common.js:40
-#: onboarding/src/Components/FeaturesList.js:67
+#: onboarding/src/Components/FeaturesList.js:62
 msgid "WooCommerce"
 msgstr ""
 
@@ -1444,136 +1444,136 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:19
+#: onboarding/src/Components/FeaturesList.js:14
 msgid "Site Builder"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:20
+#: onboarding/src/Components/FeaturesList.js:15
 msgid "Build beautiful pages with a simple drag-and-drop page builder."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:25
+#: onboarding/src/Components/FeaturesList.js:20
 msgid "Contact Form"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:26
+#: onboarding/src/Components/FeaturesList.js:21
 msgid "Create forms to capture leads and feedback."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:31
+#: onboarding/src/Components/FeaturesList.js:26
 msgid "Image Optimization"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:32
+#: onboarding/src/Components/FeaturesList.js:27
 msgid "Make your site faster with automatic image optimization."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:37
+#: onboarding/src/Components/FeaturesList.js:32
 msgid "Caching"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:38
+#: onboarding/src/Components/FeaturesList.js:33
 msgid "Supercharge your site’s speed with powerful caching."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:43
+#: onboarding/src/Components/FeaturesList.js:38
 #: onboarding/src/utils/common.js:11
 msgid "eCommerce"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:44
+#: onboarding/src/Components/FeaturesList.js:39
 msgid "Set up your store and start accepting payments via Stripe."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:49
+#: onboarding/src/Components/FeaturesList.js:44
 msgid "AI ChatBot"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:50
+#: onboarding/src/Components/FeaturesList.js:45
 msgid "Keep visitors engaged with an intelligent AI chatbot."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:61
+#: onboarding/src/Components/FeaturesList.js:56
 msgid "Tables and Chart"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:62
+#: onboarding/src/Components/FeaturesList.js:57
 msgid "A powerful and easy to use plugin for responsive charts & tables."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:68
+#: onboarding/src/Components/FeaturesList.js:63
 msgid "Build any commerce solution you can imagine."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:73
+#: onboarding/src/Components/FeaturesList.js:68
 msgid "Easy Digital Downloads"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:74
+#: onboarding/src/Components/FeaturesList.js:69
 msgid "Sell digital products with ease and manage your online store efficiently."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:79
+#: onboarding/src/Components/FeaturesList.js:74
 msgid "EDD Blocks"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:80
+#: onboarding/src/Components/FeaturesList.js:75
 msgid "Easily display Easy Digital Downloads products in Gutenberg Editor."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:85
+#: onboarding/src/Components/FeaturesList.js:80
 msgid "Recipe Card Blocks"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:86
+#: onboarding/src/Components/FeaturesList.js:81
 msgid "Easily create and share mouthwatering recipes."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:91
+#: onboarding/src/Components/FeaturesList.js:86
 msgid "Amelia"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:92
+#: onboarding/src/Components/FeaturesList.js:87
 msgid "Booking system for appointments and event booking."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:97
+#: onboarding/src/Components/FeaturesList.js:92
 msgid "Estatik"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:98
+#: onboarding/src/Components/FeaturesList.js:93
 msgid "Full-featured WordPress real estate plugin."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:103
+#: onboarding/src/Components/FeaturesList.js:98
 msgid "WP Job Openings"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:104
+#: onboarding/src/Components/FeaturesList.js:99
 msgid "Plugin for setting up a job listing page for your WordPress website."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:109
+#: onboarding/src/Components/FeaturesList.js:104
 msgid "Pods"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:110
+#: onboarding/src/Components/FeaturesList.js:105
 msgid "A framework for creating, managing, and deploying customized content types and fields for any project."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:115
+#: onboarding/src/Components/FeaturesList.js:110
 msgid "Membership Plugin"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:116
+#: onboarding/src/Components/FeaturesList.js:111
 msgid "Membership plugin that allows you to monetize content access."
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:121
+#: onboarding/src/Components/FeaturesList.js:116
 msgid "Masteriyo"
 msgstr ""
 
-#: onboarding/src/Components/FeaturesList.js:122
+#: onboarding/src/Components/FeaturesList.js:117
 msgid "Create and sell online courses with ease."
 msgstr ""
 
@@ -1753,20 +1753,20 @@ msgstr ""
 msgid "Go back"
 msgstr ""
 
-#: onboarding/src/Components/StarterSiteCard.js:69
+#: onboarding/src/Components/StarterSiteCard.js:70
 msgid "Home"
 msgstr ""
 
-#: onboarding/src/Components/StarterSiteCard.js:80
+#: onboarding/src/Components/StarterSiteCard.js:81
 msgid "Page"
 msgstr ""
 
-#: onboarding/src/Components/StarterSiteCard.js:193
+#: onboarding/src/Components/StarterSiteCard.js:194
 msgid "PRO"
 msgstr ""
 
 #. translators: %s is a color label.
-#: onboarding/src/Components/StarterSiteCard.js:282
+#: onboarding/src/Components/StarterSiteCard.js:283
 #, js-format
 msgid "Preview %s color"
 msgstr ""
