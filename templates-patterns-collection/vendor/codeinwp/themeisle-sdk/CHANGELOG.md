@@ -1,3 +1,19 @@
+##### [Version 3.3.58](https://github.com/Codeinwp/themeisle-sdk-main/compare/v3.3.57...v3.3.58) (2026-07-29)
+
+Development
+
+##### [Version 3.3.57](https://github.com/Codeinwp/themeisle-sdk-main/compare/v3.3.56...v3.3.57) (2026-07-23)
+
+> Things are getting better every day. 🚀
+
+##### [Version 3.3.56](https://github.com/Codeinwp/themeisle-sdk-main/compare/v3.3.55...v3.3.56) (2026-07-23)
+
+> Things are getting better every day. 🚀
+
+##### [Version 3.3.55](https://github.com/Codeinwp/themeisle-sdk-main/compare/v3.3.54...v3.3.55) (2026-07-20)
+
+- improve migration routine
+
 ##### [Version 3.3.54](https://github.com/Codeinwp/themeisle-sdk-main/compare/v3.3.53...v3.3.54) (2026-06-23)
 
 - Adds hook to uninstall feedback popup header & fixes JS interference
