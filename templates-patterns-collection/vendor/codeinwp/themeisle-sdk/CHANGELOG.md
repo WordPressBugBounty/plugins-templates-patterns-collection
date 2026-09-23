@@ -1,3 +1,19 @@
+##### [Version 3.3.62](https://github.com/Codeinwp/themeisle-sdk-main/compare/v3.3.61...v3.3.62) (2026-09-17)
+
+Development
+
+##### [Version 3.3.61](https://github.com/Codeinwp/themeisle-sdk-main/compare/v3.3.60...v3.3.61) (2026-08-24)
+
+- Fix stale plugin update notices after upgrades ([#336](https://github.com/Codeinwp/themeisle-sdk-main/issues/336))
+
+##### [Version 3.3.60](https://github.com/Codeinwp/themeisle-sdk-main/compare/v3.3.59...v3.3.60) (2026-08-24)
+
+Fixes lowercase wordpress occurrences shipped to consumer themes (CHANGELOG.md and composer.json keywords), flagged as REQUIRED errors by the latest Theme Check plugin.
+
+##### [Version 3.3.59](https://github.com/Codeinwp/themeisle-sdk-main/compare/v3.3.58...v3.3.59) (2026-08-21)
+
+- Guard repeated promotion loading
+
 ##### [Version 3.3.58](https://github.com/Codeinwp/themeisle-sdk-main/compare/v3.3.57...v3.3.58) (2026-07-29)
 
 Development
@@ -607,7 +623,7 @@ Fix rollback call for private products
 
 ### Bug Fixes
 
-* **build:** fix exit code when is running outside wordpress context ([d298bb5](https://github.com/Codeinwp/themeisle-sdk/commit/d298bb5))
+* **build:** fix exit code when is running outside WordPress context ([d298bb5](https://github.com/Codeinwp/themeisle-sdk/commit/d298bb5))
 
 ## [3.0.2](https://github.com/Codeinwp/themeisle-sdk/compare/v3.0.1...v3.0.2) (2018-12-28)
 

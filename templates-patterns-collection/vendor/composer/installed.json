@@ -2,24 +2,24 @@
     "packages": [
         {
             "name": "codeinwp/themeisle-sdk",
-            "version": "3.3.58",
-            "version_normalized": "3.3.58.0",
+            "version": "3.3.62",
+            "version_normalized": "3.3.62.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeinwp/themeisle-sdk.git",
-                "reference": "d6807c0b7308e323bd77cced667dee3f2d5e6a82"
+                "reference": "8363c9cab1a233095a76cd48e96fb64ce1b29ef8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/d6807c0b7308e323bd77cced667dee3f2d5e6a82",
-                "reference": "d6807c0b7308e323bd77cced667dee3f2d5e6a82",
+                "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/8363c9cab1a233095a76cd48e96fb64ce1b29ef8",
+                "reference": "8363c9cab1a233095a76cd48e96fb64ce1b29ef8",
                 "shasum": ""
             },
             "require-dev": {
                 "codeinwp/phpcs-ruleset": "dev-main",
                 "yoast/phpunit-polyfills": "^4.0"
             },
-            "time": "2026-07-29T08:38:52+00:00",
+            "time": "2026-09-17T17:08:21+00:00",
             "type": "library",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
@@ -40,7 +40,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Codeinwp/themeisle-sdk/issues",
-                "source": "https://github.com/Codeinwp/themeisle-sdk/tree/v3.3.58"
+                "source": "https://github.com/Codeinwp/themeisle-sdk/tree/v3.3.62"
             },
             "install-path": "../codeinwp/themeisle-sdk"
         }
