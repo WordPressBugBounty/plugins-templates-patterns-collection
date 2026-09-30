@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'TIOB\\Abilities\\Starter_Sites' => $baseDir . '/includes/Abilities/Starter_Sites.php',
     'TIOB\\Admin' => $baseDir . '/includes/Admin.php',
     'TIOB\\Editor' => $baseDir . '/includes/Editor.php',
     'TIOB\\Elementor' => $baseDir . '/includes/Elementor.php',

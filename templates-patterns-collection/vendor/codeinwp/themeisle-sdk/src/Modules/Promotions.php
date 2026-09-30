@@ -1264,6 +1264,10 @@ class Promotions extends Abstract_Module {
 	 * Render Easy MCP AI notice.
 	 */
 	public function render_easy_mcp_notice() {
+		// A product on this site already offers the connector in its own words.
+		if ( class_exists( Ai_Connect::class ) && Ai_Connect::has_products() ) {
+			return;
+		}
 		// Cards are injected only when a paid product loaded Featured_plugins; only then can this request already show one.
 		if ( apply_filters( 'themeisle_sdk_plugin_api_filter_registered', false ) && $this->is_easy_mcp_card_request() ) {
 			return;
